@@ -1,11 +1,11 @@
 variable "access_key" {
-     description = "AKIAU5CNGJB3IOZXQ5ER"
+     description = ""
 }
 variable "secret_key" {
-     description = "IrFJD3H8/zQ1IHj6wjloIleZmj/A85X6GdQyys6z"
+     description = ""
 }
 variable "region" {
-     description = "us-east-1"
+     description = ""
 }
 variable "bucket_name" {
   description = "(Required) Creates a unique bucket name"
