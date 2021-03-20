@@ -6,6 +6,6 @@ provider "aws" {
 }
 
 resource "aws_instance" "terra-sample0" {
-  	ami 		= "ami-04169656fea786776"
-  	instance_type	= "t2.nano"
+  	ami 		= "ami-0533f2ba8a1995cf9"
+  	instance_type	= "t2.micro"
 }
