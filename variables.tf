@@ -1,14 +1,14 @@
 variable "access_key" {
-     description = ""
+     description = "Access key to AWS console"
 }
 variable "secret_key" {
-     description = ""
+     description = "Secret key to AWS console"
 }
 variable "region" {
-     description = ""
+     description = "Region of AWS VPC"
 }
 variable "bucket_name" {
   description = "(Required) Creates a unique bucket name"
   type        = "string"
-  default     = "test-bucket-vidhyaDevops"
+  default     = "test-vidhya-Devops-delete"
 }
